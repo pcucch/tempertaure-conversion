@@ -1,0 +1,11 @@
+include <stdio.h>
+
+void main()
+{
+	float fahr = -10;
+	float celcius;
+	celcius = 5 * (fahr-32) / 9;
+	printf("%f\n", celcius);
+
+return;
+}
